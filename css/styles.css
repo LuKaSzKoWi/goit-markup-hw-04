@@ -492,11 +492,16 @@ img {
 
 /* Footer icons */
 
+.foot-container {
+    display:flex;
+    align-items: baseline;
+}
+
 
 .div-footer {
     margin-right: 120px;
 }
-/* .footer-icon {
+.footer-icon {
     display: block;
     align-items: center;
     justify-content: space-between;
@@ -505,8 +510,7 @@ img {
     height: 80px;
     top: 3256px;
     left: 540px;
-
-} */
+}
 
 .sm-paragraph {
     font-weight: 500;
@@ -533,6 +537,7 @@ img {
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sm-link-two:hover {
     background-color:#31d0aa;
