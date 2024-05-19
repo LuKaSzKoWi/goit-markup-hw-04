@@ -179,6 +179,9 @@ body {
     padding: 100px 0;
     display: flex;
     align-items: baseline;
+    max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 .logo-studio-bottom {
@@ -333,6 +336,9 @@ img {
 
 .section-three {
     padding: 120px 0;
+    max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
 }
 .page-title-three {
     margin-bottom: 72px;
@@ -366,6 +372,9 @@ img {
 .section-four {
     padding-top: 120px;
     padding-bottom: 120px;
+    max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
 }
 .page-title-five {
     margin-bottom: 72px;
@@ -484,10 +493,20 @@ img {
 
 /* Footer icons */
 
-/* .div-footer {
-    display: flex;
-    align-items: baseline;
-} */
+
+.footer-container {
+    width: 1158px;
+        margin: 0 auto;
+        padding-left: 150px;
+        padding-right: 15px;
+        margin-right: 120px;
+} 
+
+
+.div-footer {
+    
+margin-right: 120px;
+}
 
 .sm-paragraph {
     font-weight: 500;
