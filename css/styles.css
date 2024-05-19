@@ -176,6 +176,8 @@ body {
 
 .page-footer {
     background-color: #2e2f42;
+    display:flex;
+    align-items: baseline;
 }
 
 .logo-studio-bottom {
@@ -340,7 +342,7 @@ img {
     display: flex;
     gap: 24px;
 }
-.image-list {
+.image-list {transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -376,7 +378,7 @@ img {
 }
 .list-four-item {
     width: calc((100% - 48px) / 3);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .list-four-item:hover {
@@ -450,7 +452,7 @@ img {
     fill: #f4f4fd;
 }
 
-/* Section four icons */
+/* Section four transformations */
 
 .parent {
     position: relative;
@@ -476,3 +478,6 @@ img {
 .parent:hover .child {
     transform: translateY(0);
 }
+
+/* Footer icons */
+
