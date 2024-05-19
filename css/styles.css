@@ -379,7 +379,7 @@ img {
 }
 
 .list-four-item:hover {
-    box-shadow: #2E2F42 ;
+    box-shadow: 0px 1px 6px #2E2F42;
 }
 
 .div-info-two {
