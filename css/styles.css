@@ -501,7 +501,7 @@ img {
 
 .div-footer {
     margin-right: 120px;
-    margin-left: 156px;
+    /* margin-left: 156px; */ 
     
 }
 .footer-icon {
